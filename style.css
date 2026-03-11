@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footer{
     background-color: rgb(54, 54, 182);
     color: aliceblue;
@@ -5,4 +6,29 @@ footer{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 10px solid rgb(21, 12, 145);
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    
+}
+header{
+    width: 100vw;
+    position: sticky;
+    text-align: center;
+    
+>>>>>>> e71ecfd2d62f3ee51589c41f9bf6c25fa062f1ed
 }
