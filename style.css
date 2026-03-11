@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header{
     background-color: rgb(54, 54, 182);
     color: aliceblue;
@@ -6,10 +7,27 @@ header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 10px solid rgb(21, 12, 145);
     position: fixed;
+=======
+body{
+    
+>>>>>>> bd337777eee7e6c54b30c902b4dd3ca3dc6e58c0
 }
 
+header{
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    height: 80px;
+}
+.displays{
 
+}
 
+main{
+    background-color: gray;
+    height: 100vh;
+    width: 800px;
+}
 
 
 footer{
