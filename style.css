@@ -1,6 +1,17 @@
+<<<<<<< HEAD
+header{
+    background-color: rgb(54, 54, 182);
+    color: aliceblue;
+    padding: 2px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 10px solid rgb(21, 12, 145);
+    position: fixed;
+=======
 
 body{
     position: sticky;
+>>>>>>> 5f192834109e3c817ab77e228b86d2230531eddf
 }
 
 header{
@@ -11,6 +22,7 @@ header{
     height: 80px;
     background-color: rgba(0, 255, 255, 0.671);
 }
+
 .displays{
 
 }
