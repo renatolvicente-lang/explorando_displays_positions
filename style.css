@@ -5,6 +5,7 @@ body{
 
 header{
     position: fixed;
+    top: 0;
     text-align: center;
     width: 100vw;
     height: 80px;
@@ -16,7 +17,7 @@ header{
 
 main{
     margin: auto;
-    
+    margin-top: 80px;
     background-color: gray;
     height: 100vh;
     width: 800px;
