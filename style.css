@@ -1,26 +1,32 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 47, 255);
 }
 header{
     position: fixed;
     top: 0;
     text-align: center;
-    width: 100vw;
+    width: 97.3vw;
     height: 80px;
     background-color: rgb(255, 187, 0);
+    border: 10px solid rgb(214, 159, 5);
+    border-radius: 30px;
 }
 
+
+
 .displays01{
-    background-color: rgb(255, 208, 0);
+    background-color: rgb(255, 187, 0);
     height: 40px; 
     margin: auto;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
+    padding: 1px;
 }
 
 main{
     margin: auto;
-    margin-top: 80px;
+    margin-top: 100px;
     padding: 10px;
     background-color: rgba(212, 212, 212, 0.541);
     border-radius: 20px;
@@ -30,10 +36,11 @@ main{
 
 
 footer{
-    background-color: rgb(54, 54, 182);
+    background-color: rgb(255, 187, 0);
     color: aliceblue;
     padding: 2px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 10px solid rgb(21, 12, 145);
+    border: 10px solid rgb(214, 159, 5);
+    border-radius: 30px;
 }
