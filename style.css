@@ -1,6 +1,11 @@
 header{
-    position: sticky;
+    background-color: rgb(54, 54, 182);
+    color: aliceblue;
+    padding: 2px;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 10px solid rgb(21, 12, 145);
+    position: fixed;
 }
 
 
