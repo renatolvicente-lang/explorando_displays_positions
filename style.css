@@ -9,19 +9,20 @@ header{
     width: 97.3vw;
     height: 80px;
     background-color: rgb(255, 153, 0);
-    border: 10px solid rgb(252, 157, 33);
-    border-radius: 30px;
+    border: 10px solid rgb(219, 129, 11);
+    border-radius: 10px;
 }
 
 
 
-.displays01{
+.displays{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(255, 187, 0);
-    height: 40px; 
-    margin: auto;
+    margin: 10px;
     border-radius: 10px;
     text-align: center;
-    padding: 1px;
+    padding: 10px;
 }
 
 main{
@@ -43,4 +44,18 @@ footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 10px solid rgb(214, 159, 5);
     border-radius: 30px;
+}
+
+.display{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 30px;
+}
+.elemento{
+    background-color: red;
+    border-radius: 30px;
+
+}
+.block{
+    display: block;
 }
