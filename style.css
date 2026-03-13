@@ -60,9 +60,18 @@ footer{
     border-radius: 30px;
 
 }
+.elemento_in_bl{
+    display: inline-block;
+    background-color: rgb(255, 230, 0);
+    border-radius: 30px;
+    width: 90px;
+}
 .block{
     display: block;
 }
 .inline{
     display: inline;
+}
+.inline_block{
+    display: inline-block;
 }
