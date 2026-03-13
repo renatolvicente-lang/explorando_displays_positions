@@ -12,8 +12,8 @@ header{
     text-align: center;
     width: 97.3vw;
     height: 80px;
-    background-color: rgb(255, 115, 1);
-    border: 10px solid rgb(219, 70, 11);
+    background-color: #3e76d8a2;
+    border: 10px solid #005effe7;
     border-radius: 10px;
 }
 
@@ -22,7 +22,7 @@ header{
 .displays{
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 115, 1);
+    background-color: rgba(1, 196, 255, 0.582);
     margin: 10px;
     border-radius: 10px;
     text-align: center;
@@ -33,22 +33,14 @@ main{
     margin: auto;
     margin-top: 100px;
     padding: 10px;
-    background-color: rgba(212, 212, 212, 0.541);
+    background-color: rgba(146, 210, 226, 0.541);
+    border: 1px solid rgba(147, 218, 231, 0.788);
     border-radius: 20px;
     height: 100vh;
     width: 800px;
 }
 
 
-footer{
-    background-color: rgb(255, 115, 1);
-    color: aliceblue;
-    padding: 2px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 10px solid rgb(219, 70, 11);
-    border-radius: 30px;
-}
 
 .display{
     background-color: rgb(255, 255, 255);
@@ -56,13 +48,13 @@ footer{
     border-radius: 30px;
 }
 .elemento{
-    background-color: rgb(255, 230, 0);
+    background-color: #a7de4e;
     border-radius: 30px;
-
+    
 }
 .elemento_in_bl{
     display: inline-block;
-    background-color: rgb(255, 230, 0);
+    background-color: #a7de4e;
     border-radius: 30px;
     width: 90px;
 }
@@ -74,4 +66,13 @@ footer{
 }
 .inline_block{
     display: inline-block;
+}
+footer{
+    background-color: #3e76d8a2;
+    border: 10px solid #005effe7;
+    color: aliceblue;
+    padding: 2px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 30px;
 }
