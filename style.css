@@ -15,6 +15,7 @@ header{
     background-color: #3e76d8a2;
     border: 10px solid #005effe7;
     border-radius: 10px;
+    display: flex;
 }
 
 
@@ -48,13 +49,13 @@ main{
     border-radius: 30px;
 }
 .elemento{
-    background-color: #a7de4e;
+    background-color: #a7de4ebb;
     border-radius: 30px;
     
 }
 .elemento_in_bl{
     display: inline-block;
-    background-color: #a7de4e;
+    background-color: #a7de4ecc;
     border-radius: 30px;
     width: 90px;
 }
@@ -75,4 +76,12 @@ footer{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 30px;
+}
+img{
+    width: 60px;
+    margin: 10px;
+}
+
+h1{
+    margin: auto;
 }
