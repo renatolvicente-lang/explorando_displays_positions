@@ -1,6 +1,6 @@
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
+    font-family: monospace;
+    color: rgb(0, 0, 0);
 }
 body{
      background-image: url(assets/imagens/Dorfic.webp);
@@ -12,8 +12,8 @@ header{
     text-align: center;
     width: 97.3vw;
     height: 80px;
-    background-color: rgb(255, 153, 0);
-    border: 10px solid rgb(219, 129, 11);
+    background-color: rgb(255, 115, 1);
+    border: 10px solid rgb(219, 70, 11);
     border-radius: 10px;
 }
 
@@ -22,7 +22,7 @@ header{
 .displays{
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 187, 0);
+    background-color: rgb(255, 115, 1);
     margin: 10px;
     border-radius: 10px;
     text-align: center;
@@ -41,12 +41,12 @@ main{
 
 
 footer{
-    background-color: rgb(255, 187, 0);
+    background-color: rgb(255, 115, 1);
     color: aliceblue;
     padding: 2px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 10px solid rgb(214, 159, 5);
+    border: 10px solid rgb(219, 70, 11);
     border-radius: 30px;
 }
 
@@ -56,7 +56,7 @@ footer{
     border-radius: 30px;
 }
 .elemento{
-    background-color: red;
+    background-color: rgb(255, 230, 0);
     border-radius: 30px;
 
 }
