@@ -103,3 +103,12 @@ h1{
     border-radius: 20px;
     margin: auto;
 }
+.grid{
+    display: grid;
+}
+.elemento_gd{
+    background-color: #a7de4ecc;
+    width: 60px;
+    border-radius: 20px;
+    margin: auto;
+}
