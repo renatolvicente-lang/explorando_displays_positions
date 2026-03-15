@@ -88,9 +88,17 @@ h1{
 
 .flex{
     display: flex;
-    padding: 20px;
 }
 .elemento_fl{
+    background-color: #a7de4ecc;
+    width: 60px;
+    border-radius: 20px;
+    margin: auto;
+}
+.inline_flex{
+    display: inline-flex;
+}
+.elemento_in_flex{
     background-color: #a7de4ecc;
     width: 60px;
     border-radius: 20px;
