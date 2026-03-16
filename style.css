@@ -203,3 +203,68 @@ footer{
     border-radius: 30px;
 }
 
+.Position_static{
+   position: static; 
+}
+
+.elemento_postion_static{
+    background-color: #a7de4ecc;
+    border-radius: 20px;
+    margin: auto;
+    position: static;
+}
+
+.Position_relative{
+   
+}
+
+.elemento_postion_relative{
+    background-color: #a7de4ecc;
+    border-radius: 20px;
+    margin: auto;
+    position: relative; 
+   top: 20px;
+}
+
+.Position_absolute{
+   
+  
+}
+
+.elemento_postion_absolute{
+    background-color: #a7de4ecc;
+    border-radius: 20px;
+    margin: auto;
+    position: absolute;
+    width: 200px;
+     
+}
+
+.Position_fixed{
+   
+  
+}
+
+.elemento_postion_fixed{
+    position: fixed;
+    background-color: #a7de4e;
+    border-radius: 10px;
+    width: 60px;
+    margin: auto;
+    bottom: 150px;
+    right: 100px;
+}
+
+.Position_sticky{
+   
+  
+}
+
+.elemento_postion_sticky{
+    position: sticky;
+    top: 1;
+    background-color: #a7de4e;
+    border-radius: 10px;
+    width: 60px;
+    margin: auto;
+}
