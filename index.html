@@ -150,22 +150,31 @@
             </div>
         </section>
         <section class="displays">
-        <p><b>Display Block Flow - </b>Não é possível usar um block flow pois ele não existe, o block só existe no próprio display e o flow unicamente para o flow-root</p>
+            <p><b>Display Block Flow - </b>Não é possível usar um block flow pois ele não existe, o block só existe no próprio display e o flow unicamente para o flow-root</p>
         </section>
         <section class="displays">
-
+            <p><b>Display Block Flex - </b>O block flex não existe, o block pertence a sua classe de display e o flex a dele.</p>
         </section>
         <section class="displays">
-
+            <p><b>Display Block Grid - </b>Um block grid não pode existir, já que o block sempre vai criar um bloco naquela linha e pular para a próxima e o grid cria uma grade, coisas diferentes.</p>
         </section>
         <section class="displays">
-
+            <p><b>Display Block Flow-Root - </b>é uma sintaxe CSS que cria um elemento de bloco que estabelece um novo contexto de formatação de bloco (BFC), contendo completamente elementos flutuados.</p>
+            <p>Evita problemas de colapso de altura em contêineres sem recorrer a hacks como clearfix ou overflow: hidden</p>
+            <div class="display">
+                <div class="elemento_bl_fl_rt"><p>teste</p></div>
+                <p>Conteúdo normal após o elemento</p>
+            </div>
         </section>
         <section class="displays">
-
+            <p><b>Display inline flow - </b>O flow pertence unicamente ao flow-root, não podendo sair dessa regra.</p>
         </section>
         <section class="displays">
-
+            <p><b>Display inline Flow-Root - </b>Equivalente ao inline-block, mas com comportamento mais previsível, pois atua como uma caixa em linha com BFC próprio — ainda com suporte limitado em navegadores.</p>
+            <div class="display inline_fl_rt">
+                <div class="elemento_in_fl_rt"><p>teste</p></div>
+                <p>Este texto está dentro do container e não se sobrepõe ao elemento flutuante, graças ao BFC criado por <code>flow-root</code>.</p>
+            </div>
         </section>
     </main>
 
