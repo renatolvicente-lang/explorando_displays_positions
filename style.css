@@ -194,3 +194,39 @@ footer{
     border-radius: 30px;
 }
 
+.Position_static{
+   position: static; 
+}
+
+.elemento_postion_static{
+    background-color: #a7de4ecc;
+    border-radius: 20px;
+    margin: auto;
+    position: static;
+}
+
+.Position_relative{
+   
+}
+
+.elemento_postion_relative{
+    background-color: #a7de4ecc;
+    border-radius: 20px;
+    margin: auto;
+    position: relative; 
+   top: 20px;
+}
+
+.Position_absolute{
+   
+  
+}
+
+.elemento_postion_absolute{
+    background-color: #a7de4ecc;
+    border-radius: 20px;
+    margin: auto;
+    position: absolute;
+    width: 200px;
+     
+}
