@@ -230,3 +230,32 @@ footer{
     width: 200px;
      
 }
+
+.Position_fixed{
+   
+  
+}
+
+.elemento_postion_fixed{
+    position: fixed;
+    background-color: #a7de4e;
+    border-radius: 10px;
+    width: 60px;
+    margin: auto;
+    bottom: 150px;
+    right: 100px;
+}
+
+.Position_sticky{
+   
+  
+}
+
+.elemento_postion_sticky{
+    position: sticky;
+    top: 1;
+    background-color: #a7de4e;
+    border-radius: 10px;
+    width: 60px;
+    margin: auto;
+}
