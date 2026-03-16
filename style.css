@@ -148,6 +148,8 @@ h1{
     text-align: center;
     padding: 10px;
     border: 1px solid black;
+    border-radius: 20px;
+    background-color: #a7de4ecc;
 }
 .elemento_tbl{
     background-color: #a7de4ecc;
